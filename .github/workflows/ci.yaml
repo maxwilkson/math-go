@@ -5,11 +5,14 @@ on:
       - develop
 jobs:
   check-application:
+    strategy:
+      matrix:
+        go-version: ['1.19','1.20.5']
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-go@v2
         with:
-          go-version: '1.20.5'
+          go-version: ${{ matrix.go-version }}
       - run: go test
       - run: go run math.go
