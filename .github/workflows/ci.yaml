@@ -1,5 +1,8 @@
 name: ci-go-lang-workflow
 on:
+  push:
+    branches:
+      - develop
   pull_request:
     branches:
       - develop
