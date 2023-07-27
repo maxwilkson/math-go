@@ -22,18 +22,18 @@ func Soma(a int, b int) int {
 // 	return a / b
 // }
 
-func Soma2(a int, b int) int {
-	return a + b
-}
+// func Soma2(a int, b int) int {
+// 	return a + b
+// }
 
-func Soma3(a int, b int) int {
-	return a + b
-}
+// func Soma3(a int, b int) int {
+// 	return a + b
+// }
 
-func Soma4(a int, b int) int {
-	return a + b
-}
+// func Soma4(a int, b int) int {
+// 	return a + b
+// }
 
-func Soma5(a int, b int) int {
-	return a + b
-}
+// func Soma5(a int, b int) int {
+// 	return a + b
+// }
